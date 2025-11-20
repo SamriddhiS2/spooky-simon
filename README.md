@@ -22,7 +22,7 @@ Follow these steps to run the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/Samriddhi2/spooky-simon.git](https://github.com/SamriddhiS2/spooky-simon.git)
+   git clone https://github.com/SamriddhiS2/spooky-simon.git
    cd spooky-simon
    ```
 3. Install dependencies:
