@@ -1,16 +1,44 @@
-# React + Vite
+# 👻 Spooky Simon
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Spooky Simon** is a Halloween-themed interactive memory game built with React and Tailwind CSS. Put your memory to the test as you mimic the flashing patterns of ghosts in a spooky graveyard!
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Progressive Difficulty:** The sequence gets longer and faster with every level you conquer.
+- **Interactive Tutorial:** Includes a built-in "How to Play" mode to practice before the real game begins.
+- **Responsive Design:** Fully immersive layout that adapts to any screen size (Desktop & Mobile).
+- **High Score Tracking:** Keeps track of your best run during the session.
+- **Visual Feedback:** Instantly see where you made a mistake if you miss the pattern.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework:** React (Vite)
+- **Styling:** Tailwind CSS
+- **Icons:** Lucide React
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to run the project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/Samriddhi2/spooky-simon.git](https://github.com/SamriddhiS2/spooky-simon.git)
+   cd spooky-simon
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+5. Run the development server:
+   ```bash
+   npm run dev
+   ```
+7. Open the local URL shown in your terminal (usually `http://localhost:5173`) to play!
+
+## How to Play
+
+1. Click **"Start Spooky Game"**.
+2. Watch the tombstones flash with a ghost icon in a specific sequence.
+3. Click the tombstones in the exact same order.
+4. Survive the round to advance to the next level (it gets faster!).
+5. If you click the wrong grave, the game ends and shows you the correct move.
